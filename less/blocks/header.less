@@ -1,0 +1,48 @@
+.header-wrapper {
+  width: 95%;
+  min-width: 1024px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url(../img/header_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  min-height: 700px;
+}
+
+.header__line {
+  display: flex;
+  flex-direction: row;
+  padding: 25px 0;
+}
+
+.header__logo {
+  width: 25%;
+  
+  & p {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    line-height: 45px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: color .3s;
+    
+    &:hover {
+      color: #c1a389;
+      }
+  }
+}
+
+.header__menu {
+  width: 70%;
+}
+
+
+.header__title {
+  display: none; /* временно */
+}
