@@ -49,14 +49,37 @@ body {
   transition: color .3s;
 }
 .header__logo p:hover {
-  color: #c1a389;
+  color: #d1fff1;
 }
 .header__menu {
   width: 70%;
 }
 .header__title {
-  display: none;
-  /* временно */
+  text-align: center;
+  padding-top: 220px;
+  width: 800px;
+  margin: 0 auto;
+}
+.header__title h1 {
+  display: block;
+  padding: 30px;
+  width: 575px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border: 5px solid #ffffff;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.header__subtitle {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 35px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 .main-nav {
   display: flex;
@@ -78,5 +101,5 @@ body {
   transition: color .3s, transform .3s;
 }
 .main-nav__link:hover {
-  color: #c1a389;
+  color: #d1fff1;
 }
